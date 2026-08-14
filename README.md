@@ -18,9 +18,8 @@ Pages included:
 
 ## Replace before publishing
 
-Search all HTML files for `TODO`. These locations need your real information:
+The contact links and public name are already filled in. One optional item remains:
 
-- Add your email, LinkedIn URL, and GitHub URL in `about.html`.
 - Put your CV at `assets/Nora-Fan-CV.pdf`, then remove `aria-disabled="true"`, the `is-disabled` class, and the “available soon” note.
 
 You can also revise any project description to reflect your exact role, methods and outcomes once those details are ready.

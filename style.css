@@ -198,6 +198,8 @@ a { color: inherit; }
 .contact-main { margin-top: clamp(4rem, 10vw, 9rem); }
 .contact h2 { margin: 1.5rem 0 clamp(3rem, 7vw, 6rem); font: clamp(4rem, 9vw, 10rem)/.88 var(--serif); letter-spacing: -.04em; }
 .contact-links { display: flex; flex-wrap: wrap; gap: 1rem 3rem; padding-top: 1.5rem; border-top: 1px solid rgba(245,240,233,.25); color: rgba(245,240,233,.72); font-size: .78rem; text-transform: uppercase; letter-spacing: .1em; }
+.contact-links a { text-decoration: none; border-bottom: 1px solid transparent; }
+.contact-links a:hover, .contact-links a:focus-visible { color: var(--paper); border-color: currentColor; }
 .site-footer { padding: 1.25rem var(--gutter); background: var(--ink); color: rgba(245,240,233,.55); display: flex; justify-content: space-between; gap: 1rem; font-size: .68rem; letter-spacing: .1em; text-transform: uppercase; }
 .site-footer a { text-decoration: none; }
 
