@@ -1,36 +1,203 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nora Fan | Personal Website</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nora Fan is a social researcher working across culture, inequality, policy and the social life of the body."
+    />
+    <meta name="theme-color" content="#f5f0e9" />
+    <title>Nora Fan — Research, Culture &amp; Social Impact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Libre+Caslon+Display&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-<body>
+    <header class="site-header" data-header>
+      <a class="wordmark" href="#top" aria-label="Nora Fan, home">NF<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Open navigation</span>
+        <span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-  <h1>Nora Fan</h1>
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-kicker reveal">Social researcher · Strategist · Storyteller</div>
+        <h1 id="hero-title" class="reveal">
+          Researching culture,<br />inequality &amp; the<br /><em>social life</em> of the body.
+        </h1>
+        <div class="hero-footer reveal">
+          <p>
+            I’m Nora Fan, a Melbourne-based researcher working across social policy,
+            cultural practice and social impact.
+          </p>
+          <a class="text-link" href="#research">Explore selected work <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-index" aria-hidden="true">01 / 08</div>
+      </section>
 
-  <p>
-    Social Researcher · Cultural & Social Policy · Qualitative Research
-  </p>
+      <section class="section about" id="about" aria-labelledby="about-title">
+        <div class="section-label reveal"><span>02</span> About</div>
+        <div class="section-content about-grid">
+          <h2 id="about-title" class="display-title reveal">Ideas become useful when they stay close to lived experience.</h2>
+          <div class="body-copy reveal">
+            <p>
+              I am a social researcher with interests spanning gender, the body,
+              social inequality, cultural policy and creative industries. My work asks
+              how institutions, public narratives and everyday decisions shape whose
+              experiences are seen—and whose needs are acted upon.
+            </p>
+            <p>
+              Through the Executive Master of Arts at the University of Melbourne, I
+              have developed an interdisciplinary practice connecting qualitative
+              inquiry, policy analysis, cultural strategy and clear public-facing
+              communication.
+            </p>
+          </div>
+        </div>
+      </section>
 
-  <h2>About Me</h2>
+      <section class="section interests" id="interests" aria-labelledby="interests-title">
+        <div class="section-label reveal"><span>03</span> Research interests</div>
+        <div class="section-content">
+          <h2 id="interests-title" class="sr-only">Research interests</h2>
+          <ol class="interest-list">
+            <li class="reveal">
+              <span class="item-number">01</span>
+              <h3>Gender, Body &amp; Society</h3>
+              <p>Embodiment, identity, beauty, self-expression and decision-making.</p>
+            </li>
+            <li class="reveal">
+              <span class="item-number">02</span>
+              <h3>Social Policy &amp; Inequality</h3>
+              <p>Health, life-course disruption, access and institutional responses.</p>
+            </li>
+            <li class="reveal">
+              <span class="item-number">03</span>
+              <h3>Culture &amp; Creative Industries</h3>
+              <p>Museums, performing arts, cultural organisations and audiences.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
 
-  <p>
-    Welcome to my personal website.
-  </p>
+      <section class="section selected-research" id="research" aria-labelledby="research-title">
+        <div class="section-label reveal"><span>04</span> Selected research</div>
+        <div class="section-content">
+          <h2 id="research-title" class="display-title reveal">Questions grounded in people, systems and context.</h2>
+          <div class="research-list">
+            <article class="research-card reveal">
+              <div class="research-meta">
+                <span>Gender &amp; Society</span><span>Qualitative Research</span>
+              </div>
+              <h3>Decision-Making Processes of Tattoos among Contemporary Chinese Women</h3>
+              <p>
+                An inquiry into how contemporary Chinese women navigate identity,
+                embodiment, social norms and personal agency when deciding to get a tattoo.
+              </p>
+            </article>
+            <article class="research-card reveal">
+              <div class="research-meta">
+                <span>Social Policy</span><span>Policy Analysis</span>
+              </div>
+              <h3>Social Inequalities Experienced by AYA Cancer Survivors in China</h3>
+              <p>
+                A policy-focused examination of how social structures can turn
+                cancer-related disruption into unequal outcomes for adolescents and young adults.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
 
-  <h2>Research Interests</h2>
+      <section class="section projects" id="projects" aria-labelledby="projects-title">
+        <div class="section-label reveal"><span>05</span> Selected projects</div>
+        <div class="section-content">
+          <h2 id="projects-title" class="display-title reveal">Research translated into strategy, stories and public value.</h2>
+          <div class="project-grid">
+            <article class="project-card reveal">
+              <div class="project-top"><span>Culture / Strategy</span><span>01</span></div>
+              <h3>Heide Museum of Modern Art</h3>
+              <p>Marketing strategy and audience-focused thinking for a cultural institution.</p>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-top"><span>Performing Arts</span><span>02</span></div>
+              <h3>Bangarra Dance Theatre</h3>
+              <p>Research and strategic work situated at the intersection of culture, audiences and communication.</p>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-top"><span>Social Enterprise</span><span>03</span></div>
+              <h3>The Big Issue</h3>
+              <p>Exploring the relationship between social impact, enterprise models and public engagement.</p>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-top"><span>Food / Heritage</span><span>04</span></div>
+              <h3>She Ethnic Food Culture</h3>
+              <p>Cultural research connecting food practices, community memory and living heritage.</p>
+            </article>
+          </div>
+          <p class="content-note reveal">Project case studies and outcomes can be added as details become available.</p>
+        </div>
+      </section>
 
-  <p>
-    Gender, body and society · Social inequality · Cultural policy
-  </p>
+      <section class="section experience" id="experience" aria-labelledby="experience-title">
+        <div class="section-label reveal"><span>06</span> Experience &amp; skills</div>
+        <div class="section-content experience-grid">
+          <h2 id="experience-title" class="display-title reveal">An interdisciplinary toolkit for complex social questions.</h2>
+          <div class="skills reveal">
+            <div><h3>Research</h3><p>Qualitative inquiry · Literature review · Policy analysis · Case study research</p></div>
+            <div><h3>Strategy</h3><p>Audience insight · Cultural strategy · Social impact thinking · Project communication</p></div>
+            <div><h3>Communication</h3><p>Research synthesis · Narrative development · Editorial writing · Presentations</p></div>
+            <div><h3>Contexts</h3><p>Social policy · Arts and culture · Creative industries · Cross-cultural research</p></div>
+          </div>
+        </div>
+      </section>
 
-  <h2>Selected Projects</h2>
+      <section class="section cv-section" id="cv" aria-labelledby="cv-title">
+        <div class="section-label reveal"><span>07</span> Curriculum vitae</div>
+        <div class="section-content cv-layout reveal">
+          <h2 id="cv-title">A fuller record of my education, experience and work.</h2>
+          <!-- TODO: Add your PDF at assets/Nora-Fan-CV.pdf, then remove aria-disabled and the note below. -->
+          <a class="button is-disabled" href="assets/Nora-Fan-CV.pdf" download aria-disabled="true">Download CV <span aria-hidden="true">↘</span></a>
+          <p class="cv-note">CV download will be available soon.</p>
+        </div>
+      </section>
 
-  <p>
-    More coming soon.
-  </p>
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="section-label reveal"><span>08</span> Contact</div>
+        <div class="contact-main">
+          <p class="eyebrow reveal">Open to thoughtful conversations and collaborations</p>
+          <h2 id="contact-title" class="reveal">Let’s begin with<br /><em>a good question.</em></h2>
+          <div class="contact-links reveal">
+            <!-- TODO: Replace the labels below with your real links before publishing. -->
+            <span>Email — add your address</span>
+            <span>LinkedIn — add your profile</span>
+            <span>GitHub — add your profile</span>
+          </div>
+        </div>
+      </section>
+    </main>
 
-</body>
+    <footer class="site-footer">
+      <span>© <span data-year></span> Nora Fan</span>
+      <span>Melbourne, Australia</span>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </body>
 </html>
