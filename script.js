@@ -18,6 +18,10 @@ nav.addEventListener("click", (event) => {
   if (event.target.matches("a")) closeMenu();
 });
 
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") closeMenu();
+});
+
 window.addEventListener("scroll", () => {
   header.classList.toggle("is-scrolled", window.scrollY > 20);
 }, { passive: true });
